@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @naime2909
 - 👀 I’m interested in AI and geek culture
 - 🌱 I’m currently learning to code and lots of ai tool
-- 💞️ I’m looking to collaborate on what you want ^^
+- 💞️ I’m looking to collaborate on any ai project in order to learn ^^
 - 📫 How to reach me at hamza68260@gmail.com 
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
