@@ -1,29 +1,31 @@
+<change>
+<file>tsconfig.json</file>
+<description>Configuration TypeScript pour la compilation</description>
+<content><![CDATA[
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "experimentalDecorators": true,
-    "useDefineForClassFields": false,
-    "module": "ESNext",
-    "lib": [
-      "ES2022",
-      "DOM",
-      "DOM.Iterable"
-    ],
-    "skipLibCheck": true,
-    "types": [
-      "node"
-    ],
-    "moduleResolution": "bundler",
-    "isolatedModules": true,
-    "moduleDetection": "force",
-    "allowJs": true,
-    "jsx": "react-jsx",
-    "paths": {
-      "@/*": [
-        "./*"
-      ]
-    },
-    "allowImportingTsExtensions": true,
-    "noEmit": true
-  }
+"compilerOptions": {
+"target": "ES2020",
+"useDefineForClassFields": true,
+"lib": ["ES2020", "DOM", "DOM.Iterable"],
+"module": "ESNext",
+"skipLibCheck": true,
+code
+Code
+/* Bundler mode */
+"moduleResolution": "bundler",
+"allowImportingTsExtensions": true,
+"resolveJsonModule": true,
+"isolatedModules": true,
+"noEmit": true,
+"jsx": "react-jsx",
+
+/* Linting */
+"strict": true,
+"noUnusedLocals": false,
+"noUnusedParameters": false,
+"noFallthroughCasesInSwitch": true
+},
+"include": [".//*.ts", ".//*.tsx"]
 }
+]]></content>
+</change>
